@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans JP",sans-serif ;
+}  
+#habilidades {
+    
+	background: #151515 url(../img/bkdark2.png) no-repeat center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	min-height: 940px;
+	display: table;
+	position: relative;
+	text-align: center;
+}
+
+section#habilidades  nav ul#menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }    
+  
+  section#habilidades  nav ul#menu li{
+    padding: 1rem;
+  }
+  
+  section#habilidades  nav ul#menu li a{
+    text-decoration:none;
+    color: #fff;
+    font-size:1.5rem;
+    margin-top: 10px;
+  
+  }
+  section#habilidades  ul#menu li a{
+    text-decoration: none; /*tira o sublinhado de toda decoração o link*/
+    padding: 1rem 2rem 1rem 2rem ;
+    display:inline-block;
+    font-size: 3rem;
+    color: rgb(39, 36, 36); 
+    transition: color .4s ease-out ;  
+    margin-top: 190px;
+    border: solid;
+   }
+   section#habilidades ul#menu a:hover{
+   color: rgb(255, 255, 255);
+   transition:2s;
+   background-color: rgba(255,255,255,0);	
+   border-top: #fff;
+   border-bottom: #fff;
+  }
+      
+  section#habilidadaes ul#menu a i{
+      transition: all .4s ease-out;
+  }     
+  section#habilidades ul a i:hover{
+  transform: scale(1.3);
+  }  
+  
+
+  section#habilidades div#sociais{
+    display: flex;
+    justify-content:center;
+    position: relative;
+    top:155px;
+  }  
+  
+  section#habilidades div#sociais ul#icons{
+      padding:4.7rem;
+  }
+  section#habilidades div#sociais ul#icons a{
+      font-size: 3rem;
+      text-decoration:none;
+      padding:2rem;
+      color: rgba(255, 250, 250, 0.178);
+  }
+  section#habilidades div#sociais ul#icons a:hover{
+      color: rgb(255, 250, 250);    
+   
+   
+  }
+section#habilidades div#grafico{
+    display: flex;
+    justify-content:center;
+    padding-top: 5rem;
+} 
+/* ------------------------------------------------------------------------------ */  
+section#habilidades h2#sql{
+    color: #fff;
+    position: absolute;
+    padding:1rem;
+    padding-top:6rem;
+    top: 250px;
+    right:1215px;
+
+}
+section#habilidades h2#py{
+    color: #fff;
+    position: absolute;
+    padding:1rem;
+    padding-top:6rem;
+    top: 250px;
+    right:1040px;
+
+}
+
+section#habilidades h2#html{
+    color: #fff;
+    position: absolute;
+    padding:1rem;
+    padding-top:6rem;
+    top: 250px;
+    right:900px;
+
+}
+section#habilidades h2#css{
+    color: #fff;
+    position: absolute;
+    padding:1rem;
+    padding-top:6rem;
+    top: 250px;
+    right:760px;
+
+}
+section#habilidades h2#js{
+    color: #fff;
+    position: absolute;
+    padding:1rem;
+    padding-top:6rem;
+    top: 250px;
+    right:560px;
+
+}
+
+.progress-circle {
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #f50909; }
+  
+  .progress-circle:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-animation: colorload 2s;
+    animation: colorload 2s; }
+  
+  .progress-circle span {
+    font-size: 1.5rem;
+    color: #8b8b8b;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-left: -30px;
+    margin-top: -30px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 1; }
+  
+  .progress-circle span:after {
+    content: "%";
+    font-weight: 600;
+    color: #8b8b8b; }
+  
+
+  
+  
+  .progress-circle.progress-60:after {
+    background-image: linear-gradient(-54deg, #42940b 50%, transparent 50%, transparent), linear-gradient(270deg, #42940b 50%, #ebebeb 50%, #ebebeb); }
+   
+  .progress-circle.progress-80:after {
+    background-image: linear-gradient(18deg, #42940b 50%, transparent 50%, transparent), linear-gradient(270deg, #42940b 50%, #ebebeb 50%, #ebebeb); }
+    .progress-circle.progress-40:after {
+        background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(234deg, #42940b 50%, #ebebeb 50%, #ebebeb); } 
+       
+      .progress-circle.progress-20:after {
+        background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(151.2deg, #42940b 50%, #ebebeb 50%, #ebebeb); }
+        .progress-circle.progress-20:after {
+            background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(151.2deg, #42940b 50%, #ebebeb 50%, #ebebeb); } 
+          
+  
+  @-webkit-keyframes colorload {
+    0% {
+      opacity: 0;
+      transform: rotate(0deg); }
+    100% {
+      opacity: 1;
+      transform: rotate(360deg); } }
+  
+      section#habilidades div#paragrafo p{
+        font-family: 'cursiva';
+        display: flex;
+        justify-content:center; 
+        font-size: 1.5vw;
+        position: relative;
+        top:155px;
+         text-align:center;
+         color: #d4d3d3;
+         line-height: 2.5rem;
+         text-shadow: 0 0 50px #000 ;
+        }
+  

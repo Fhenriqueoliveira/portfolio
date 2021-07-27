@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans JP",sans-serif ;
+}
+
+/* background em toda section*/
+#contato{
+    
+	background: #151515 url(../img/bkdark2.png) no-repeat center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	min-height: 940px;
+	display: table;
+	position: relative;
+	text-align: center;
+}
+section#contato div#form{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section#contato div#form h3{
+width:100% ;
+text-align: center;   
+font-size: 2rem;
+padding:2rem;
+margin-bottom: 2rem; 
+}
+section#contato div#form form#action{
+  width: 50%;
+  
+ }
+section#contato div#form form input,textarea{
+  width: 100%;
+  padding: .5rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  outline: none;
+}
+section#contato div#form form label{
+  font-size: 1.2rem;
+  color: #ccc;
+ 
+}
+section#contato div#form form button{
+  border: 1px solid rgb(109, 1, 1);
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  font-size: .8vw;
+  font-weight: 600;
+  border-radius: .5rem;
+  display: block;
+  margin: auto;
+  width: 40%;
+  cursor: pointer;
+  transition: .6s ease-out;
+}
+section#contato div#form form button:hover{
+  background-color: rgb(109, 1, 1);
+  color: #fff;
+  transform: scale(1.2);
+}
+
+
+section#contato  nav ul#menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}    
+
+section#contato  nav ul#menu li{
+  padding: 1rem;
+}
+
+section#contato  nav ul#menu li a{
+  text-decoration:none;
+  color: #fff;
+  font-size:1.5rem;
+  margin-top: 10px;
+
+}
+section#contato  ul#menu li a{
+  text-decoration: none; /*tira o sublinhado de toda decoração o link*/
+  padding: 1rem 2rem 1rem 2rem ;
+  display:inline-block;
+  font-size: 3rem;
+  color: rgb(39, 36, 36); 
+  transition: color .4s ease-out ;  
+  margin-top: 190px;
+  border: solid;
+ }
+ section#contato ul#menu a:hover{
+ color: rgb(255, 255, 255);
+ transition:2s;
+ background-color: rgba(255,255,255,0);	
+ border-top: #fff;
+ border-bottom: #fff;
+}
+    
+section#contato ul#menu a i{
+    transition: all .4s ease-out;
+}     
+section#contato ul a i:hover{
+transform: scale(1.3);
+}  
+
+section#contato div#sociais{
+  height:150px;
+  display: flex;
+  justify-content:center;
+  position: relative;
+  top:100px;
+}  
+
+section#contato div#sociais ul#icons{
+    padding:4.7rem;
+}
+section#contato div#sociais ul#icons a{
+    font-size: 3rem;
+    text-decoration:none;
+    padding:2rem;
+    color: rgba(255, 250, 250, 0.178);
+}
+section#contato div#sociais ul#icons a:hover{
+    color: rgb(255, 250, 250);    
+ 
+ 
+}
+section#contato div#carregamento{
+  display: none; /* Deixa o display none para não aparecer até que você clique no botão enviar (ver JS) */
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+section#contato div#carregamento p{
+  color: #0066ff;
+  font-weight: 700;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+
+section#contato div#carregamento div#loader{
+  border: 13px solid #fff;
+  border-radius: 50%;
+  border-top: 13px solid #0066ff;
+  border-bottom: 13px solid #0066ff;
+  width: 80px;
+  height: 80px;
+  /* Anima o elemento div#loader criando a variável spin, em 2s de forma linear e infinita */
+  animation: spin 2s linear infinite;
+}
+
+/* Anima a variável spin do animation */
+@keyframes spin {
+  0% {  /* Começa em 0% */
+    transform: rotate(0deg); /* Rotação do elemento no 0° */ 
+  } 
+  100% { /* Vai até 100% */
+    transform: rotate(360deg); /* Rotação do elemento em 360° */ 
+  }
+}
+
+/* Loader de carregamento */
+
+
+
